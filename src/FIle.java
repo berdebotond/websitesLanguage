@@ -58,10 +58,10 @@ public class FIle {
             try {
                 PrintWriter printWriter = new PrintWriter(sites.get(i).getName() + ".txt");
                 printWriter.print(sites.get(i).toString());
-                System.out.println("Successful saving");
+                System.out.println("Saved Successfully");
                 printWriter.close();
             }catch (IOException e){
-                System.out.println("Error with saving");
+                System.out.println("Error in saving");
             }
         }
     }
