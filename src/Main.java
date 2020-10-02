@@ -16,7 +16,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Write the new language name =" + "\n");
         String name = scanner.next();
-        System.out.print("Write the a new language website adress =" + "\n");
+        System.out.print("Write the website adress of new language =" + "\n");
         String adress = scanner.next();
         Website Url = new Website(adress);
         newLang = new Tree(Url.toTree());
